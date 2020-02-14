@@ -3,6 +3,7 @@ import React from 'react';
 import './global.css'
 import './App.css'
 import './Sidebar.css'
+import './Main.css'
 
 function App() {
 
@@ -37,7 +38,47 @@ function App() {
           <button type="submit">Salvar</button>
         </form>
       </aside>
-      <main></main>
+
+      <main>
+        <ul>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/32266873?v=4" alt="Diogo Cardoso" />
+              <div className="user-info">
+                <strong>Diogo Cardoso</strong>
+                <span>Reactjs, Node.js</span>
+              </div>
+            </header>
+            <p>Estudante do curso Superior de Sistemas para Internet no IFPB. Apaixonado por desenvolvimento de games e web.</p>
+            <a href="https://api.github.com/users/dicardoso">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/32266873?v=4" alt="Diogo Cardoso" />
+              <div className="user-info">
+                <strong>Diogo Cardoso</strong>
+                <span>Reactjs, Node.js</span>
+              </div>
+            </header>
+            <p>Estudante do curso Superior de Sistemas para Internet no IFPB. Apaixonado por desenvolvimento de games e web.</p>
+            <a href="https://api.github.com/users/dicardoso">Acessar perfil no Github</a>
+          </li>
+
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/32266873?v=4" alt="Diogo Cardoso" />
+              <div className="user-info">
+                <strong>Diogo Cardoso</strong>
+                <span>Reactjs, Node.js</span>
+              </div>
+            </header>
+            <p>Estudante do curso Superior de Sistemas para Internet no IFPB. Apaixonado por desenvolvimento de games e web.</p>
+            <a href="https://api.github.com/users/dicardoso">Acessar perfil no Github</a>
+          </li>
+        </ul>
+      </main>
     </div>
   );
 }
